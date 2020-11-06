@@ -1,5 +1,5 @@
-# Autocomplete
+# zsh-autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-# Starship
+# starship
 eval "$(starship init zsh)"
