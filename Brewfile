@@ -1,0 +1,20 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+brew "cairo"
+brew "mas"
+brew "neofetch"
+brew "starship"
+brew "tldr"
+brew "yarn"
+brew "youtube-dl"
+cask "bitwarden"
+cask "discord"
+cask "github"
+cask "grammarly"
+cask "slack"
+cask "visual-studio-code"
+mas "AdGuard for Safari", id: 1440147259
+mas "Grammarly for Safari", id: 1462114288
+mas "Xcode", id: 497799835
