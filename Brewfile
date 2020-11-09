@@ -17,11 +17,16 @@ cask "chromium"
 cask "discord"
 cask "github"
 cask "grammarly"
+cask "mactex-no-gui"
 cask "microsoft-teams"
 cask "slack"
 cask "transmission"
 cask "visual-studio-code"
 mas "AdGuard for Safari", id: 1440147259
 mas "Grammarly for Safari", id: 1462114288
+mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Podcast Studio", id: 1464728589
 mas "Xcode", id: 497799835
