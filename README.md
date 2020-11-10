@@ -29,3 +29,12 @@ https://github.com/nvm-sh/nvm for updated install script, otherwise:
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 ```
+
+## Automator
+
+### Update Brewfile
+
+```sh
+export PATH=/usr/local/bin:$PATH
+brew bundle dump --file ~/Repos/config/Brewfile -f
+```
