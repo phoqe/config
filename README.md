@@ -32,9 +32,24 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 
 ## Automator
 
-### Update Brewfile
+### Update Config
+
+#### Run Shell Script
 
 ```sh
 export PATH=/usr/local/bin:$PATH
-brew bundle dump --file ~/Repos/config/Brewfile -f
+
+cd ~/Repos/config
+
+# .zshrc
+cat ~/.zshrc > .zshrc
+git add .zshrc
+git commit -m "Update .zshrc"
+
+# Brewfile
+brew bundle dump -f
+git add Brewfile
+git commit -m "Update Brewfile"
+
+git push
 ```
