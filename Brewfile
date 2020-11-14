@@ -27,6 +27,8 @@ cask "slack"
 cask "transmission"
 cask "visual-studio-code"
 mas "AdGuard for Safari", id: 1440147259
+mas "Apple Configurator 2", id: 1037126344
+mas "Apple Configurator 2", id: 1037126344
 mas "Grammarly for Safari", id: 1462114288
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
