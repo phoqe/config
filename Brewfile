@@ -22,6 +22,7 @@ cask "grammarly"
 cask "mactex-no-gui"
 cask "sf-symbols"
 cask "slack"
+cask "spotify"
 cask "transmission"
 cask "visual-studio-code"
 mas "AdGuard for Safari", id: 1440147259
