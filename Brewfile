@@ -20,13 +20,11 @@ cask "discord"
 cask "github"
 cask "grammarly"
 cask "mactex-no-gui"
-cask "microsoft-teams"
 cask "sf-symbols"
 cask "slack"
 cask "transmission"
 cask "visual-studio-code"
 mas "AdGuard for Safari", id: 1440147259
-mas "Apple Configurator 2", id: 1037126344
 mas "Apple Configurator 2", id: 1037126344
 mas "Grammarly for Safari", id: 1462114288
 mas "JSONPeep", id: 1458969831
