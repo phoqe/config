@@ -30,6 +30,10 @@ https://github.com/nvm-sh/nvm for updated install script, otherwise:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 ```
 
+### Fonts
+
+https://developer.apple.com/fonts
+
 ## Automator
 
 ### Update Config
