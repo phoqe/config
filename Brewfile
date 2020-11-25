@@ -32,7 +32,6 @@ cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
 mas "AdGuard for Safari", id: 1440147259
-mas "Apple Configurator 2", id: 1037126344
 mas "Flow", id: 1423210932
 mas "Grammarly for Safari", id: 1462114288
 mas "JSONPeep", id: 1458969831
