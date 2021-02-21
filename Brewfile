@@ -34,6 +34,9 @@ cask "github"
 cask "google-chrome"
 cask "grammarly"
 cask "mactex-no-gui"
+cask "microsoft-auto-update"
+cask "microsoft-outlook"
+cask "microsoft-word"
 cask "postman"
 cask "prefs-editor"
 cask "sf-symbols"
@@ -43,9 +46,11 @@ cask "tor-browser"
 cask "transmission"
 cask "visual-studio-code"
 cask "vlc"
+cask "zoom"
 mas "AdGuard for Safari", id: 1440147259
 mas "Flow", id: 1423210932
 mas "Grammarly for Safari", id: 1462114288
+mas "iA Writer", id: 775737590
 mas "JSONPeep", id: 1458969831
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
