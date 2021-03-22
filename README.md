@@ -34,6 +34,26 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.0/install.sh | bash
 
 https://developer.apple.com/fonts
 
+### Use Touch ID for sudo
+
+Add the following line to `/etc/pam.d/sudo`:
+
+```
+auth       sufficient     pam_tid.so
+```
+
+The file should look something like:
+
+```sh
+# sudo: auth account password session
+auth       sufficient     pam_tid.so
+auth       sufficient     pam_smartcard.so
+auth       required       pam_opendirectory.so
+account    required       pam_permit.so
+password   required       pam_deny.so
+session    required       pam_permit.so
+```
+
 ## Automator
 
 ### Update Config
